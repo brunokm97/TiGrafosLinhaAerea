@@ -8,14 +8,13 @@ namespace TiGrafosLinhaAerea
         public int[] a = new int[1000000];
         int posicao = 0;
 
-
         public ManipulaArquivo()
         {
             importArquivo();
         }
         void importArquivo()
         {
-            StreamReader leitor = new StreamReader("C:/Users/bruno/Google Drive/PUC/12017/GRAFOS/TiGrafosLinhaAerea/TiGrafosLinhaAerea/Ordena.txt");
+            StreamReader leitor = new StreamReader("C:/Users/bruno/Google Drive/PUC/12017/GRAFOS/TiGrafosLinhaAerea/TiGrafosLinhaAerea/ModeloArquivoRota.txt");
             string atual = leitor.ReadLine();
 
             while(atual != null)
