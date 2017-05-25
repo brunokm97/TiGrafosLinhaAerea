@@ -9,10 +9,25 @@ namespace TiGrafosLinhaAerea
     class Aeroporto
     {
         internal string nomeAeroporto;
+        
+
 
         public Aeroporto(string nomeAeroporto)
         {
             this.nomeAeroporto = nomeAeroporto;
+        }
+
+        internal Aeroporto Proximo
+        {
+            get
+            {
+                return proximo;
+            }
+
+            set
+            {
+                proximo = value;
+            }
         }
     }
 }
